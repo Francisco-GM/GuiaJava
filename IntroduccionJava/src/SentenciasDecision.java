@@ -80,6 +80,7 @@ public class SentenciasDecision {
          */
 
         // ######################################################################
+        /*
         //sentencia if y operador logico or
         //Sergio quiere asistir al juego de su hijo
         // pero solo puede asistir si tiene vacaciones o un dia de descanso
@@ -91,6 +92,23 @@ public class SentenciasDecision {
             System.out.println("Sergio puede asistir al juego de Mateo...");
         } else {
             System.out.println("Sergio esta ocupado, no puede ir al juego...");
+        }
+        */
+        //##########################################################################################
+        // sentencia de decision y operador !
+        System.out.println("*** Bienvenido al sistema Bancario ***");
+        var salirSistema = false;
+        if(!salirSistema){
+            System.out.println("Continuamos en el sistema");
+        } else {
+            System.out.println("Saliendo del ssitema... Saludos");
+        }
+
+        // Otra logica aplicada sin el operador not !
+        if(salirSistema){
+            System.out.println("Saliendo del sistema");
+        } else {
+            System.out.println("Continuamos dentro del sistema...");
         }
 
     }
