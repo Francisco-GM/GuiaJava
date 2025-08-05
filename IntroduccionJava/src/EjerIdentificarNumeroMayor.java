@@ -21,5 +21,8 @@ public class EjerIdentificarNumeroMayor {
             System.out.println("El numero mayor es: "+numero2);
         }
         consola.close();
+
+        // Operador ternadiro
+        System.out.println("Valor con operador ternario :" + (numero1 > numero2 ? numero1 : numero2));
     }
 }
