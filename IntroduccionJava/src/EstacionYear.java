@@ -16,6 +16,31 @@ public class EstacionYear {
         System.out.println("Favor de ingresar el numero de mes que te encuentras actualmente");
         var mes = Integer.parseInt(consola.nextLine());
 
+        // Sentencia Switch
+        switch(mes){ //agregamos el valor a evaluar
+            case 1: case 2: case 12:
+                System.out.println("La estacion es invierno");
+                break;
+            case 3: case 4: case 5:
+                System.out.println("La estacion es primavera");
+                break;
+            case 6: case 7: case 8:
+                System.out.println("La estacion es verado");
+                break;
+            case 9: case 10: case 11:
+                System.out.println("La estacion es Otoño");
+                break;
+
+            default:
+                System.out.println("Estacion desconocida...");
+        }
+
+
+
+
+        /*
+            Ejemplo de la sentencia IF
+
         if (mes >= 1 || mes <= 2 || mes == 12){
             System.out.println("El mes "+ mes +" Pertenece a la estacion de Invierno");
         }else if(mes >= 3 && mes <= 5){
@@ -28,5 +53,7 @@ public class EstacionYear {
         } else {
             System.out.println("Estacion desconocida");
         }
+
+         */
     }
 }
