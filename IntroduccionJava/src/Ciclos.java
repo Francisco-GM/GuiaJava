@@ -12,11 +12,20 @@ public class Ciclos {
         }
 
          */
+        /*
         // Ciclo Do while
         var contador = 1;
         final var VALOR_MAXIMO = 100;
         do {
             System.out.println("valor:" + contador++);
         } while (contador <= VALOR_MAXIMO);
+
+         */
+
+        // ciclo for
+        final var VALO_MAXIMO = 5;
+        for(var contador = 1; contador <= VALO_MAXIMO; contador++){
+            System.out.println("Valor: "+ contador);
+        }
     }
 }
